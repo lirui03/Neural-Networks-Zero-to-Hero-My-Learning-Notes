@@ -1,5 +1,5 @@
 import random
-from code.P1.micrograd.engine import *
+from .engine import *
 
 class Neuron:
     def __init__(self, nin):  # nin表示接受几个输入，例如Neuron(3)表示接受三个输入
